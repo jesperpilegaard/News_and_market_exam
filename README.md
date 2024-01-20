@@ -1,6 +1,8 @@
 This GitHub repository contains code for performing topic modeling on arXiv abstracts using the dataset provided by Hugging Face Datasets, which can be downloaded here:
 
-https://huggingface.co/datasets/gfissore/arxiv-abstracts-2021/viewer/default/train?p=19994
+https://huggingface.co/datasets/gfissore/arxiv-abstracts-2021/tree/main
+
+It's the one called arxiv-abstracts.jsonl.gz
 
 The code focuses on text analysis and topic modeling with a multi-faceted approach. It begins with data preprocessing, involving cleaning steps and keyword matching for relevant content extraction. Subsequently, the script employs Latent Dirichlet Allocation (LDA) for topic modeling, identifying latent topics within the text corpus. Additionally, K-Means clustering is utilized to group related documents.
 
